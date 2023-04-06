@@ -24,11 +24,11 @@ nav {
   margin-top: 10px;
 }
 nav img {
-  max-height: 10vw;
+  max-height: 20vh;
   padding: 25px;
 }
 nav h2 {
-  font-size: 1vw;
+  font-size: 20px;
   color: white;
   padding: 30px;
 }
@@ -46,15 +46,15 @@ nav h2 {
   flex-direction: column;
 }
 .bg .bg-img {
-  margin-top: 10vh;
-  max-height: 25vw;
+  margin-top: 2vh;
+  max-height: 30vw;
   position: absolute;
   z-index: 0;
   top: 10%;
 }
 .bg .front-img {
-  margin-top: 10vh;
-  height: 28vw;
+  margin-top: 2vh;
+  height: 34vw;
   position: absolute;
   z-index: 2;
   top: 10%;
@@ -136,6 +136,27 @@ nav h2 {
 .social-icon i {
   position: relative;
   top: 1px;
+}
+
+@media (max-width: 736px) {
+  .bg .bg-img {
+    margin-top: 20vh;
+    max-height: 35vw;
+    position: absolute;
+    z-index: 0;
+    top: 10%;
+  }
+  .bg .front-img {
+    margin-top: 20vh;
+    height: 45vw;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+  }
+  nav img {
+    max-height: 20vh;
+    padding: 40px;
+  }
 }
 
 /* Tooltips */
